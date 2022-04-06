@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recyclerRowPlainText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/recyclerRowTextView"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/purple_500"
+        />
+
+</LinearLayout>
